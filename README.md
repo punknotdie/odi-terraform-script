@@ -1,1 +1,1 @@
-# odi-terraform-script
+# Deployment for prod environment
