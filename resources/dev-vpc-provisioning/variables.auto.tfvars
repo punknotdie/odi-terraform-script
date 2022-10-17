@@ -1,0 +1,13 @@
+vpc_cred = "./key/genuine-episode-365314-6ae8d3581ef7.json"
+firewall_name = "dev-vpc-allow-outbound"
+project_id = "genuine-episode-365314"
+network_name = "dev-vpc-k8s-odi"
+subnetwork_name = "dev-k8s-subnet-odi"
+range-pods-name = "dev-pods-range"
+range-service-name = "dev-service-range"
+subnetwork_range = "10.226.0.0/16"
+dev-pods-range = "10.227.0.0/16"
+dev-service-range = "10.228.0.0/16"
+region = "asia-southeast1"
+zone = "asia-southeast1-a"
+
