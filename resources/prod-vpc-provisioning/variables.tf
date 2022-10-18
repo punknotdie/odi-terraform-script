@@ -3,6 +3,11 @@ variable "vpc_cred" {
   description = "service accounts credentials"
 }
 
+variable "firewall_name" {
+  type = string
+  description = "Firewall name rules"
+}
+
 variable "project_id" {
   type        = string
   description = "The project ID to host the network in"
