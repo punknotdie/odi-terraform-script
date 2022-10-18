@@ -6,6 +6,17 @@ region = var.region
 zone = var.zone
 }
 
+resource "google_compute_firewall" "vpc-allow-outbound" {
+  name    = var.firewall_name
+  network = var.network_name
+
+  allow {
+    protocol = "all"
+  }
+
+  source_ranges = ["0.0.0.0/0"]
+}
+
 resource "google_compute_network" "vpc_network" {
 name = var.network_name
 project = var.project_id
