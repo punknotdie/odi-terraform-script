@@ -1,4 +1,5 @@
 vpc_cred = "./key/genuine-episode-365314-6ae8d3581ef7.json"
+firewall_name = "prod-vpc-allow-outbound"
 project_id = "genuine-episode-365314"
 network_name = "prod-vpc-k8s-odi"
 subnetwork_name = "prod-k8s-subnet-odi"
