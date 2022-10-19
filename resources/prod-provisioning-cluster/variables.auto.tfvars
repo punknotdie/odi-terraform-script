@@ -11,3 +11,4 @@ gke_ip_range_pods = "prod-pods-range"
 gke_ip_range_services = "prod-service-range"
 gke_node_location = "asia-southeast1-a"
 gke_default_nodepool_name = "prod-pool-odi-k8s"
+
