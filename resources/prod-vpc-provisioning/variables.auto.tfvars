@@ -1,6 +1,6 @@
-vpc_cred = "./key/genuine-episode-365314-6ae8d3581ef7.json"
+vpc_cred = "./key/robotic-parsec-337401-add707608800.json"
 firewall_name = "prod-vpc-allow-outbound"
-project_id = "genuine-episode-365314"
+project_id = "robotic-parsec-337401"
 network_name = "prod-vpc-k8s-odi"
 subnetwork_name = "prod-k8s-subnet-odi"
 range-pods-name = "prod-pods-range"
